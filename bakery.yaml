@@ -1,0 +1,5 @@
+commit: HEAD
+process_files: [Ledger-Regular.ttf.ttx, src/Ledger-Regular.otf.ttx, src/Ledger-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
